@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">Please fill in this short survey to help improve our platform! Thank you!</p>
+<form id="survey-form">
+  <fieldset>
+<label id="name-label" >Name: <input id="name" type="text" placeholder="Joe Bloggs" required></label>
+<label id="email-label">Email: <input id="email" type="email" placeholder="Example123@gmail.com" required></label>
+<label id="number-label">Age: <input id="number" type="number" min="13" max="120" placeholder="50"></label>
+<label id="dropdown-label">What is your current occupation: <select id="dropdown"><option disabled="" selected="" value="">Select one please</option><option>Student</option><option>Full Time Job</option><option>Part Time Learner</option></label>
+<textarea id="Other" name="Other" rows="3" cols="55" placeholder="Any additional ideas: "></textarea>
+  </form>
+<input id="recommend" type="radio" name="yes" value="option" class="inline" name="yes" checked>Definetly</label>
+<input id="recommend" type="radio" value="option" class="inline" name="yes">Maybe</label>
+<input id="recommend" class="inline" type="radio" value="option" name="yes">No</label>
+<input type="checkbox" value="1"></input>
+<input type="checkbox" value="1"></input>
+<input id="submit" class="submit-button" type="Submit" value="Submit"></button>
+</fieldset>
+</body>
+</html>
